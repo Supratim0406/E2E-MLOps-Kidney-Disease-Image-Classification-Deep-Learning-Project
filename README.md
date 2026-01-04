@@ -25,14 +25,14 @@ Clone the repository
 ```bash
 https://github.com/Supratim0406/E2E-MLOps-Kidney-Disease-Image-Classification-Deep-Learning-Project.git
 ```
-### STEP 01- Create a conda environment after opening the repository
+### STEP 01- Create a Virtual environment after opening the repository
 
 ```Powershell
 py -3.10 -m venv venv310
 ```
 
 ```Powershell
-venv311\Scripts\Activate
+venv310\Scripts\Activate
 ```
 
 
@@ -92,7 +92,7 @@ export MLFLOW_TRACKING_PASSWORD=
 
 ## About MLflow & DVC
 
-MLflow
+### MLflow
 
  - Its Production Grade
  - Trace all of your expriements
@@ -101,7 +101,7 @@ MLflow
 <img width="1896" height="958" alt="image" src="https://github.com/user-attachments/assets/5dc98b35-5eec-4bae-b64f-88645ed1e062" />
 
 
-DVC 
+### DVC 
 
  - Its very lite weight for POC only
  - lite weight expriements tracker
